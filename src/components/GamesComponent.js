@@ -11,8 +11,7 @@ export const GamesComponent = () => {
     axios
       .get(`${url}/games`, {
         headers: {
-          'X-RapidAPI-Key':
-            '246589fc6fmshaca703e5714c83cp1073f2jsne3801f900b7f',
+          'X-RapidAPI-Key': '',
           'X-RapidAPI-Host': 'mmo-games.p.rapidapi.com',
         },
         params: genre && {
