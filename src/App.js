@@ -20,14 +20,14 @@ function App() {
   //     .then((data) => console.log(data));
   // }, []);
 
-  const fetchPosts = async () => {
-    const response = await instance.get('/posts');
-    console.log(response.data);
-  };
+  // const fetchPosts = async () => {
+  //   const response = await instance.get('/posts');
+  //   console.log(response.data);
+  // };
 
-  useEffect(() => {
-    fetchPosts();
-  }, []);
+  // useEffect(() => {
+  //   fetchPosts();
+  // }, []);
 
   // useEffect(() => {
   //   instance.get('/posts').then((res) => console.log(res.data));
